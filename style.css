@@ -386,12 +386,155 @@ footer
 @media (min-width: 320px) and (max-width:480px)
  {
    
-    .blog-cards {
+    .hero
+    {
+        padding: 0px !important;
         flex-direction: column;
-
     }
 
- }
+    .hero .left img {
+        width: 300px;
+        margin-left:0px !important;
+    }
+    .hero .right {
+        margin-top: 0px !important;
+        text-align: center;
+    }
+    .hero .right h6{
+        font-size: 20px;
+    }
+    .hero .right h1 {
+
+        font-size: 20px;
+        margin-bottom: 5px !important;
+    }
+    .download-btn
+    {
+        margin-bottom: 30px !important;
+    }
+    .download-btn a {
+        padding: 10px;
+        font-size: 12px;
+    }
+   #About
+   {
+    padding: 0px;
+    padding-top: 20px;
+   }
+   #About .container
+   {
+     flex-direction: column;
+   }
+   #About .container .left img
+   {
+    width: 300px;
+    height: 400px !important;
+   }
+   #About .container .right
+   {
+    padding-top: 20px;
+   }
+
+   #Projects { 
+    /* padding: 3rem !important; */
+    padding: 0px !important;
+   
+   }
+   .projects-head 
+   {
+        font-size: 35px;
+        margin-bottom: 50px;
+        padding-top: 30px;
+    }
+   
+
+   .project-box-content 
+   {
+         margin: 0px !important;
+   }
+   .project-box-1 {
+       flex-direction: column;
+   }
+   
+   .project-box-img img {
+    width: -webkit-fill-available;
+   }
+
+   .project-box-2
+   {
+    flex-direction: column;
+   }
+  
+   #Blog
+   {
+     padding: 0px !important;
+   }
+   .blog-cards {
+    flex-direction: column;
+   }
+   .blog-card-1 {
+    width: 18.5rem;
+    margin-bottom: 20px;
+    align-self: center;
+   }
+   .blog-head {
+     font-size: 30px;
+   }
+   .project-box-1
+   {
+    margin-bottom: 50px;
+   }
+   .project-box-2 {
+    margin-bottom: 50px;
+    margin-left: 0px;
+   }
+   .project-box-content h2 {
+
+      margin-bottom: 10px;
+   }
+
+   .last
+   {
+    padding-bottom: 20px;
+   }
+
+   .logo
+   {
+     text-align: center;
+     display: none;
+   }
+   /* .info .logo img 
+   {
+    width: 100px;
+   } */
+   .socials {
+    padding-top: 35px;
+   }
+/* 
+   header nav .logo {
+      margin-right: 0px !important;
+      margin-bottom: 20px;
+   } */
+   header nav 
+   {
+     flex-direction: column;
+   }
+   header nav .left
+   {
+     flex-direction: column;
+   }
+   header nav .left a 
+   {
+
+    margin-right: 1rem;
+   }
+  
+   header nav .right
+   {
+    margin-top: 20px;
+   }
+    
+}
 
 
   /* Ipad view */
